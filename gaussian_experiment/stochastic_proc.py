@@ -10,7 +10,7 @@ import codecs, json
 
 
 def get_m_sigma(patient_id_in_dataset):
-    raw_dataset_path = "data_1078.json"  # файл с датасетом
+    raw_dataset_path = "data_1078.json"
     f = open(raw_dataset_path, 'r')
     data = json.load(f)
     v6Data = data[patient_id_in_dataset]["Leads"]["v6"]["Signal"]

@@ -51,7 +51,7 @@ def get_patients(num_patients):
     :param num_patients:
     :return: возвращает их айдишники (один массив) и их сигналы (второй массив)
     """
-    raw_dataset_path = "data_1078.json"  # файл с датасетом
+    raw_dataset_path = "data_1078.json"
     f = open(raw_dataset_path, 'r')
     data = json.load(f)
     ids = list(data.keys())
